@@ -5,4 +5,3 @@ Portfólio contendo implementações desenvolvidas em linguagem C voltadas para 
 Os projetos envolvem análise de dados em matrizes, construção de caminhos, operações numéricas e algoritmos desenvolvidos durante estudos de programação e lógica computacional.
 
 O repositório continuará recebendo novas implementações e algoritmos relacionados a matrizes e outros problemas desenvolvidos em linguagem C.
-```
