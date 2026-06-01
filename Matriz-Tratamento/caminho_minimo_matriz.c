@@ -41,7 +41,6 @@ int main()
         menor = 99999;
         achou = 0;
 
-        /* cima */
         i = i0 - 1;
         j = j0;
         if (visitado[i][j] == 0 && matriz[i][j] < menor)
@@ -52,7 +51,6 @@ int main()
             achou = 1;
         }
 
-        /* baixo */
         i = i0 + 1;
         j = j0;
         if (visitado[i][j] == 0 && matriz[i][j] < menor)
@@ -63,7 +61,6 @@ int main()
             achou = 1;
         }
 
-        /* esquerda */
         i = i0;
         j = j0 - 1;
         if (visitado[i][j] == 0 && matriz[i][j] < menor)
@@ -74,7 +71,6 @@ int main()
             achou = 1;
         }
 
-        /* direita */
         i = i0;
         j = j0 + 1;
         if (visitado[i][j] == 0 && matriz[i][j] < menor)
